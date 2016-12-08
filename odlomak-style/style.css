@@ -1,0 +1,35 @@
+body{
+text-align: center;
+background-color: #4e8391;
+font-family: 'Bungee', cursive;
+
+}
+h3{
+font-size:25px;
+}
+
+img {
+	width:25%;
+}
+img:hover {
+	border-radius:100%;
+}
+
+/* jedan mali komentar*/
+
+p{
+
+	font-size:15px;
+}
+
+#zuto{
+	color:#ebf442;
+}
+
+#zeleno{
+	color:#83db6b;
+}
+
+.velika{
+	text-transform: uppercase;
+}
