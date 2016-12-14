@@ -1,0 +1,63 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+	 	box-sizing: border-box;	
+} 
+
+label {
+	 line-height: 1em;
+}
+
+body{
+	background-color: #242424;
+}
+.fa-trophy{
+		font-size: 50px;
+		color:white;
+
+}
+
+
+#naslov{
+	margin: 50px 0;
+	text-align: center;
+}
+
+
+form{
+	border: 20px solid #858565;
+	border-radius: 10%;
+	margin: 0 420px;
+	background-color: white;
+	width: 500px;
+
+}
+
+
+input{
+display:block;
+	margin: 10px auto;
+
+}
+#ime, #prezime{
+	border-style: none;
+	border-bottom: 2px dotted ;
+}
+
+#musko, #zensko{
+	display: inline-block;
+		margin-top: 30px;
+		margin-bottom: 30px;
+}
+
+#bday{
+	margin-top:0px;
+}
+
+
+
+
+#s, #m, #l{
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
