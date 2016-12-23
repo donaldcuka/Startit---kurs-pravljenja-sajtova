@@ -1,0 +1,160 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
+#logo {
+	height: 30px;
+	width:106px;
+	background-image: url('https://a.slack-edge.com/66f9/img/landing/header_logo_sprite.png');
+}
+nav{
+	margin: 20px 0 0 20px;
+}
+nav ul {
+	float: right;
+	margin: -18px 0;
+}
+nav ul li {
+	display: inline-block;
+	margin-right: 10px;
+	list-style: none;
+}
+
+nav ul li{
+	padding: 4px 10px;
+	border-radius: 5px;
+}
+
+nav ul li:hover{
+	background-color: grey;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+body {
+	background-image: url('https://a.slack-edge.com/4030/img/wired/nasa-header-image.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: background-position: center 30%;
+}
+
+h2 {
+	color:white;
+	font-size: 45px;
+	font-weight: 600;
+	text-align:center;
+}
+
+h2:nth-child(1){
+	margin-top: 160px;
+
+}
+
+h3 {
+	color:white;
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+form {
+
+	width: 63%;
+	margin: 20px auto 40px;
+	border: solid 3px black;
+	border-radius: 10px;
+	background-color: black;
+	opacity: 0.8;
+
+
+}
+
+#email {
+	margin: 21px;
+	padding: 12px;
+    width: 40%;
+    border-radius: 10px;
+}
+
+#button{
+	color:white;
+	padding:  0 5px;
+	background-color: green;
+	display: inline-block;
+	border-radius: 10px;
+	margin: 0 11%;
+}
+
+p {
+	color: white;
+	text-align: center;
+}
+
+
+.underline {
+	text-decoration: underline;
+}
+hr {
+	margin-bottom: 0px;
+}
+#liste {
+	background-color: black;
+	color:white;
+	
+}
+
+#liste ul{
+		display: inline-block;
+		padding: 3px 100px;
+			margin: 80px 0;
+
+}
+
+#liste ul li {
+	list-style: none;
+	padding: 10px;
+}
+
+#liste ul li:nth-child(1) {
+	color:red;
+}
+
+#sivo {
+	background-color: grey;
+	width: 100%;
+	margin: 0 0;
+		padding: 1px;
+
+}
+
+#gore {
+	text-align: center;
+}
+
+#sivo ul li {
+	display: inline-block;
+	padding: 1px 3px;
+	margin-right: 10px;
+}
+
+
+
+#sivo h4, ul {
+	display: inline-block;
+}
+#sivo ul {
+	text-align: right !important;
+	
+	float:right;
+}
+
+@media screen and (max-width:460px){
+
+	nav ul{
+	width: 100%;
+	margin-top: 20px;
+	}
+}
