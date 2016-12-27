@@ -1,0 +1,256 @@
+* {
+	text-decoration: none;
+}
+
+nav {
+	width: 100%;
+/*	position: fixed;*/
+}
+
+nav #logo{
+	display: inline;
+}
+nav #logo img{
+	height: 40px;
+	width: 40px;
+	float: left;
+	padding: 10px 15px;
+	margin-left: 90px
+
+
+}
+
+nav #logo h2 {
+	display: inline-block;
+	font-family: "Montserrat","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 30px;
+	margin-top: 15px;
+
+}
+
+nav ul{
+		display: inline-block;
+		float: right;
+		margin-right: 90px;
+
+}
+
+nav ul li {
+		display: inline-block;
+		text-align: right;
+		margin-top: 10px;
+
+}
+
+nav ul li a{
+padding: 20px 15px;
+font-family: "Roboto",sans-serif;
+color: #343434;
+font-size: 13px;
+
+}
+
+nav ul li a:hover {
+color: #0099FF;
+}
+
+#text {
+margin: 100px auto;
+text-align: center;
+padding: 0 250px;
+}
+
+#text p{
+	color:black;
+
+}
+
+#kupi{
+	padding: 0px 45px;
+	background-color: #188AE2;
+	display: inline-block;
+	border-radius: 4px;
+	color:white;
+		text-align: center;
+		margin-bottom: 50px;
+}
+
+#kupi p {
+	color:white;
+	text-align: center;
+			margin-left: 0;
+
+}
+
+.red1 {
+	width: 88%;
+	margin: 10px auto;
+
+}
+
+.red2{
+	width: 88%;
+	margin: 10px auto;
+}
+
+.box {
+	width: 390px;
+	height: 125px;
+	display: inline-block;
+	color:white;
+	padding: 0 auto;
+	position: relative;
+}
+
+section {
+	background-color: black;
+	width: 100%;
+	padding: 70px 0 30px 0;
+}
+
+.sve {
+	width: 99%;
+	margin: 10px auto;
+}
+
+.ico {
+	width: 10%;
+	display: inline-block;
+	position: absolute;
+}
+
+.box h4, p{
+	padding: 5px;
+	margin-left: 30px;
+	color: white;
+}
+
+.fa {
+	margin-top: 27px
+}
+
+.box2 {
+	width: 390px;
+	height: 125px;
+	display: inline-block;
+/*	padding: 0 auto;
+*/}
+
+.box2 p {
+	color: black;
+		text-align: center;
+
+}
+
+.box2 h4 {
+	text-align: center;
+}
+
+#offer .sve h6 {
+	color: rgb(88, 88, 88);
+	font-family: "Montserrat","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+}
+
+#offer h3 {
+	color: rgb(88, 88, 88);
+	font-family: "Montserrat","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 28px;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+
+
+#plavo {
+	background-color: blue;
+/*	width: 100%;
+*/}
+
+#unutra {
+	width: 100%;
+	padding: 30px 0;
+}
+
+#unutra h3 {
+	text-align: left;
+	margin-left: 130px;
+}
+
+#unutra p {
+	margin-left: 124px;
+}
+
+
+#cun {
+	padding: 10px 20px;
+	background-color: red;
+	border-radius: 30px;
+		display: inline-block;
+		float: right;
+		margin-top:  -101px;
+
+}
+
+#cun p {
+		margin-left: 0;
+}
+
+#galerija .container h6{
+	color: rgb(35, 82, 124);
+cursor: pointer;
+font-family: "Montserrat","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+font-weight: 400;
+
+}
+
+#galerija .container h3 {
+color: rgb(88, 88, 88);
+font-family: "Montserrat","HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 28px;
+font-weight: 400;
+} 
+
+#galerija .container ul {
+	text-align: center;
+}
+
+#galerija .container ul li {
+	display: inline-block;
+	padding: 10px;
+}
+
+img {
+	width: 428px;
+	height:282px;
+	display: inline-block;
+}
+
+#prvi{
+	margin-left: -40px;
+}
+#drugi{
+	margin-left: -40px;
+
+}
+#treci{
+		margin-left: -40px;
+
+}
+
+.small {
+	display: none;
+}
+
+@media screen and (max-width:960px) {
+	.big{
+		display: none;
+	}
+	.small{
+		display: inline-block;
+	}
+}
